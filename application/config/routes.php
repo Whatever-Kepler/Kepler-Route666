@@ -54,3 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['foxtrot'] = 'tango';
+// $route['i/(:any)'] = 'golf'; this doesnt work; Michal says its cause of the php version.
+$route['i/(:any)/(:any)/(:any)'] = 'golf'; // this is jim's fix
