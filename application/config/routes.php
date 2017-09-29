@@ -52,3 +52,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+/**
+ *    Hotel routing
+ */
+/* This one also has an error: function must not have any parameters
+$route['bananas/rule'] = function($fruit, $verb) {
+  return 'golf';
+};
+*/
+$route['bananas/rule'] = function() {
+  return 'golf';
+};
