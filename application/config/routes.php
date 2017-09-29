@@ -57,3 +57,6 @@ $route['translate_uri_dashes'] = FALSE;
  *    Foxtrot routing
  */
 $route['foxtrot'] = 'tango';
+
+//add a route for show/$id to map to the welcome controller
+$route['show/(:any)'] = 'welcome/show/$1';
