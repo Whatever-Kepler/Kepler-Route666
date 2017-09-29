@@ -1,10 +1,22 @@
 <?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
 /**
  *    India controller
  */
 class India extends CI_Controller
 {
+    /**
+     * Ctor
+     */
+    function __construct()
+    {
+      parent::__construct();
+    }
 
+  /**
+   *  India index
+   */
   public function index() {
     // source destination of the image
     $source = '../data/HappyFace.png';
