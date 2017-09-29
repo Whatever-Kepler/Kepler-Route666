@@ -53,6 +53,21 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+
+//add a route for show/$id to map to the welcome controller
+$route['show/(:any)'] = 'welcome/show/$1';
+
+/**
+ *    Foxtrot routing
+ */
+$route['foxtrot'] = 'tango';
+
+/*
+ *    Golf routing
+ */
+// $route['i/(:any)'] = 'golf'; this doesnt work; Michal says its bug with the php version.
+$route['i/(:any)/(:any)/(:any)'] = 'golf'; // this is jim's fix
+
 /**
  *    Hotel routing
  */
