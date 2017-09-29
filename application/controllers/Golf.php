@@ -1,12 +1,27 @@
 <?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
 /**
- *    Golf controller
+ * Charlie Brown controller
+ * Shows quote with index 3 at /charlie/brown
  */
 class Golf extends Application
 {
-  public function index() {
-    // passes 6 to inherited function
-    $this->show(6);
-  }
+
+    /**
+     * Ctor
+     */
+	function __construct()
+	{
+		parent::__construct();
+	}
+
+	/**
+	 * Charlie Brown
+	 */
+	public function index()
+	{
+		$this->show(6);
+	}
+
 }
-?>

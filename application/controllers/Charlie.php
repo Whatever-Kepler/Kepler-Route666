@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * Charlie Brown controller
  * Shows quote with index 3 at /charlie/brown
  */
-class Tango extends Application
+class Charlie extends Application
 {
 
     /**
@@ -17,11 +17,11 @@ class Tango extends Application
 	}
 
 	/**
-	 * Foxtrot Tango
+	 * Charlie Brown
 	 */
-	public function index()
+	public function brown()
 	{
-		$this->show(5);
+		$this->show(3);
 	}
 
 }
