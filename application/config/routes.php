@@ -57,6 +57,7 @@ $route['translate_uri_dashes'] = FALSE;
  *    Foxtrot routing
  */
 $route['foxtrot'] = 'tango';
+<<<<<<< HEAD
 /**
  *    Golf routing
  */
@@ -73,3 +74,5 @@ $route['bananas/rule'] = function($fruit, $verb) {
 $route['bananas/rule'] = function() {
   return 'golf';
 };
+=======
+>>>>>>> parent of 11cd4e2... Issue Golf is resolved
