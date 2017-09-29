@@ -2,12 +2,11 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
- * Charlie Brown controller
- * Shows quote with index 3 at /charlie/brown
+ * Able controller
+ * Shows the quote with index 1 at /able
  */
-class Must extends Application
+class Able extends Application
 {
-
     /**
      * Ctor
      */
@@ -17,12 +16,11 @@ class Must extends Application
 	}
 
 	/**
-	 * Must wehave
+	 * Able index
 	 */
-	public function wehave()
+	public function index()
 	{
-		$this->show(5);
+        $this->show(1);
 	}
 
 }
-?>
