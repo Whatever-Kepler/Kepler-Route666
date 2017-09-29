@@ -2,12 +2,11 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
- * Charlie Brown controller
- * Shows quote with index 3 at /charlie/brown
+ * Able controller
+ * Shows the quote with index 1 at /able
  */
-class Tango extends Application
+class Able extends Application
 {
-
     /**
      * Ctor
      */
@@ -17,11 +16,11 @@ class Tango extends Application
 	}
 
 	/**
-	 * Foxtrot Tango
+	 * Able index
 	 */
 	public function index()
 	{
-		$this->show(5);
+        $this->show(1);
 	}
 
 }

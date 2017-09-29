@@ -57,7 +57,7 @@ $route['translate_uri_dashes'] = FALSE;
  *    Foxtrot routing
  */
 $route['foxtrot'] = 'tango';
-<<<<<<< HEAD
+
 /**
  *    Golf routing
  */
@@ -74,7 +74,3 @@ $route['bananas/rule'] = function($fruit, $verb) {
 $route['bananas/rule'] = function() {
   return 'golf';
 };
-=======
-// $route['i/(:any)'] = 'golf'; this doesnt work; Michal says its cause of the php version.
-$route['i/(:any)/(:any)/(:any)'] = 'golf'; // this is jim's fix
->>>>>>> parent of 090c8a8... Issue Hotel is done
