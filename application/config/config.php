@@ -7,14 +7,14 @@ $config['menu_choices'] = array(
         array('name' => 'Alpha', 'link' => '/able'),
         array('name' => 'Bravo', 'link' => '#'),
         array('name' => 'Charlie', 'link' => '/charlie/brown'),
-        array('name' => 'Delta', 'link' => '#'),
+        array('name' => 'Delta', 'link' => '/delta/force'),
         array('name' => 'Echo', 'link' => '/echo/must/wehave'),
         array('name' => 'Foxtrot', 'link' => '#'),
         array('name' => 'Golf', 'link' => '#'),
         array('name' => 'Hotel', 'link' => '#'),
         array('name' => 'India', 'link' => '#'),
         array('name' => 'Juliet', 'link' => '/juliet'),
-        array('name' => 'Kilo', 'link' => '#'),
+        array('name' => 'Kilo', 'link' => '/show/2'),
         )
     );
 
