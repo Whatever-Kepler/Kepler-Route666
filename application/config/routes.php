@@ -67,3 +67,15 @@ $route['foxtrot'] = 'tango';
  */
 // $route['i/(:any)'] = 'golf'; this doesnt work; Michal says its bug with the php version.
 $route['i/(:any)/(:any)/(:any)'] = 'golf'; // this is jim's fix
+
+/**
+ *    Hotel routing
+ */
+/* This one also has an error: function must not have any parameters
+$route['bananas/rule'] = function($fruit, $verb) {
+  return 'golf';
+};
+*/
+$route['bananas/rule'] = function() {
+  return 'golf';
+};
